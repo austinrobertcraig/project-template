@@ -31,7 +31,7 @@ When a new user opens this project, renv will automatically bootstrap itself, do
 Important Commands:
 
 - `renv::init()` was run once to generate necessary folders and files for this project. Likely don't need to run again unless something goes wrong.
-- `renv::snapshot()` updates the lockfile with metadata about the currently-used packages in the project library. Run this after adding new packages.
+- `renv::snapshot()` updates the lockfile with metadata about the currently-used packages in the project library. Run this any time after you add or remove a `library()` call in the code.
 - `renv::restore()` reproduces the current environment: uses the metadata from the lockfile to install exactly the same version of every package.
 - `renv::install()` installs packages much like `install.packages()`, but can also install packages from GitHub, Bioconductor, and more.
 - `renv::update()` gets the latest version of all dependencies.
