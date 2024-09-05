@@ -12,6 +12,8 @@ For general advice on data science workflow, see the following pages:
 ## File Structure
 Credit for the general structure of this project goes to [Brendan M. Price](https://www.brendanmichaelprice.com/workflow/).
 
+Note: the `.gitkeep` files are placeholders used to maintain the file structure within GitHub. Feel free to delete them once you have real files in their folders.
+
 ### Code
 - `code/build` (data preparation)
 - `code/check` (data validation)
