@@ -50,6 +50,7 @@ When a new user opens this project, renv will automatically bootstrap itself, do
 - https://code.visualstudio.com/docs/languages/r
 - https://github.com/REditorSupport/vscode-R
 - See Daniel Lüdecke's articles for recommended extensions, keybindings, and other tips: https://gist.github.com/strengejacke/82e8d7b869bd9f961d12b4091c145b88
+- Guide to installing LaTeX with previews and autocomplete for VSCode: https://blog.jakelee.co.uk/getting-latex-working-in-vscode-on-windows/
 
 ## Why Use VS Code?
 RStudio is also great. I am switching my workflow to VS Code for the following reasons:
