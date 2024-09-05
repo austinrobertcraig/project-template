@@ -21,4 +21,4 @@ Included in .gitignore. Raw data is stored on the cloud elsewhere (ex: Dropbox, 
 - `output/share` (outputs of public-facing analysis)
 
 ### Paper
-Latex files and pdfs.
+LaTeX files and pdfs.
