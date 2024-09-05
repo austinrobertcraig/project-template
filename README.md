@@ -22,3 +22,9 @@ Included in .gitignore. Raw data is stored on the cloud elsewhere (ex: Dropbox, 
 
 ### Paper
 LaTeX files and pdfs.
+
+## Setting Up VS Code for R
+- https://code.visualstudio.com/docs/languages/r
+- https://github.com/REditorSupport/vscode-R
+- See Also: Daniel Lüdecke (https://gist.github.com/strengejacke/82e8d7b869bd9f961d12b4091c145b88)
+
