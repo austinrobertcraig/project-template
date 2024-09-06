@@ -6,6 +6,7 @@ For general advice on data science workflow, see the following pages:
 
 - Brendan M. Price's Resources for PhD Students: https://www.brendanmichaelprice.com/resources/grad/
 - Jenny Bryan's article on project-oriented workflow (with a useful explainer of the `here` package): https://www.tidyverse.org/blog/2017/12/workflow-vs-script/
+- *Git: A Guide for Economists* by Frank Pinter: https://www.frankpinter.com/notes/git-for-economists-presentation.pdf
 - Arthur Turrell's *Coding for Economists*: https://aeturrell.github.io/coding-for-economists/intro.html
 - *Introduction to Econometrics with R* by Hanck, Arnold, Gerber, and Schmelzer: https://www.econometrics-with-r.org/
 
@@ -55,12 +56,53 @@ When a new user opens this project, renv will automatically bootstrap itself, do
 - `renv.lock` is the lockfile used by the `renv` package (described above).
 
 ## Setting Up VS Code for R
-- VS Code's Documentation, very helpful: https://code.visualstudio.com/docs/languages/r
+
+### Step-by-step installation instructions
+1. Install [VS Code](https://code.visualstudio.com/Download)
+
+2. Install [R](https://cloud.r-project.org/) for your platform. To make the next step easier, I recommend adding a desktop shortcut during the installation process.
+
+3. Install languageserver:
+
+- Open the R terminal you just installed and run the following:
+
+    `install.packages("languageserver", dependencies = TRUE)`
+
+4. Open VS Code. In the **extensions** tab (Ctrl+Shift+X) search for and install the [REditorSupport](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r) and [R Debugger](https://github.com/ManuelHentschel/VSCode-R-Debugger?tab=readme-ov-file) extensions.
+
+5. Install [Git](https://git-scm.com/download). Make an account on [GitHub](https://github.com/) if you don't have one already.
+
+6. **Use this template** to create a new GitHub Repository. There is a green button at the top right of this page which will do this for you.
+
+7. Back in VS Code, click the **source control** button in the activity bar. Select "Clone a Repository", then "Clone from GitHub". You will need to authenticate your GitHub account and select a location on your machine where you will clone your new repo.
+
+- If this is successful, you should now see the project in VS Code.
+- See [this page](https://code.visualstudio.com/docs/sourcecontrol/overview) for more information on using Git in VS Code.
+- Note: I recommend **not** cloning a Git repo into a synchronized folder like Dropbox or OneDrive, as this is known to [cause some issues](https://stackoverflow.com/questions/19305033/why-is-putting-git-repositories-inside-of-a-dropbox-folder-not-recommended).
+
+8. Set up LaTeX in VS Code
+- Download and install the [MiKTeX](https://miktex.org/) distribution to your machine.
+- In the VS Code extensions tab, search for and install "LaTeX Workshop" and "LTeX - LanguageTool". VS Code will probably prompt you to reload your extensions - if not, close and reopen it yourself.
+- Create a new `.tex` file in VS Code (probably in the `paper` subdirectory, which is already set up with a `.gitignore` file to handle LaTeX output). Add some basic LaTeX code:
+
+```
+\documentclass{article}
+\begin{document}
+Hello I am just a small document.
+\end{document}
+```
+- Click the green "run" arrow in the top right of your `.tex` file. This should begin building the PDF, and now MiKTeX should prompt you to install the `latexmk` package. Do so.
+- Try to compile the PDF again. If it still fails, it is likely because you do not have Perl installed on your machine, which is a requirement for `latexmk`. See [the latexmk documentation](https://mg.readthedocs.io/latexmk.html) for information on how to fix this.
+- Once your PDF compiles for the first time, you should be able to use the preview tool as well.
+
+9. Done! See the resources below for more information on this process and additional tools you may be interested in installing.
+
+### Helpful Resources
+- VS Code's Documentation: https://code.visualstudio.com/docs/languages/r
 - Documentation for the R Editor Extension: https://github.com/REditorSupport/vscode-R
 - See Daniel Lüdecke's articles for recommended extensions, keybindings, and other tips: https://gist.github.com/strengejacke/82e8d7b869bd9f961d12b4091c145b88
-- Guide to installing LaTeX with previews and autocomplete for VSCode: https://blog.jakelee.co.uk/getting-latex-working-in-vscode-on-windows/
+- Detailed guide to installing LaTeX with previews and autocomplete for VSCode: https://blog.jakelee.co.uk/getting-latex-working-in-vscode-on-windows/
     - I followed this process as described, except I installed the [MiKTeX](https://miktex.org/) distribution instead of the TeX Live distribution. I found the installation process to be easier, and MiKTeX can do "on the fly" package installation.
-    - When you first attempt to compile a .tex file into a PDF, MiKTeX will prompt you to install `latexmk`. Do so. This package requires an installation of Perl, which may not be installed on your machine. See [the latexmk documentation](https://mg.readthedocs.io/latexmk.html) for information on how to fix this.
 
 ## Why Use VS Code?
 RStudio is also great (and it has an easier learning curve). I am switching my workflow to VS Code for the following reasons:
