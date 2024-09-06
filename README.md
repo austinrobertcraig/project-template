@@ -47,16 +47,17 @@ When a new user opens this project, renv will automatically bootstrap itself, do
 - `renv::update()` gets the latest version of all dependencies.
 
 ## Setting Up VS Code for R
-- https://code.visualstudio.com/docs/languages/r
-- https://github.com/REditorSupport/vscode-R
+- VS Code's Documentation, very helpful: https://code.visualstudio.com/docs/languages/r
+- Documentation for the R Editor Extension: https://github.com/REditorSupport/vscode-R
 - See Daniel Lüdecke's articles for recommended extensions, keybindings, and other tips: https://gist.github.com/strengejacke/82e8d7b869bd9f961d12b4091c145b88
 - Guide to installing LaTeX with previews and autocomplete for VSCode: https://blog.jakelee.co.uk/getting-latex-working-in-vscode-on-windows/
+    - I followed this process as described, except I installed the [MiKTeX](https://miktex.org/) distribution instead of the TeX Live distribution. I found the installation process to be easier, and MiKTeX can do "on the fly" package installation.
 
 ## Why Use VS Code?
-RStudio is also great. I am switching my workflow to VS Code for the following reasons:
+RStudio is also great (and it has an easier learning curve). I am switching my workflow to VS Code for the following reasons:
 
 1. Excellent GitHub integration (see [here](https://vscode.github.com/))
-2. Simple to switch between common research tasks and programming languages without changing environments. With the right extensions you can edit code, write in LaTeX, view PDFs, and browse excel/csv files all without leaving VS Code. It also supports Python in case that is preferred for the task at hand.
+2. Can easily switch between common research tasks and programming languages without changing environments. With the right extensions you can edit code, write in LaTeX, view PDFs, and browse excel/csv files all without leaving VS Code. It also supports Python in case that is preferred for the task at hand.
 
 <!---
 Helpful note to self: (Ctrl+K V) opens a markdown preview side-by-side with the editor in VS Code.
