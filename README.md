@@ -52,7 +52,7 @@ When a new user opens this project, renv will automatically bootstrap itself, do
 - See Daniel Lüdecke's articles for recommended extensions, keybindings, and other tips: https://gist.github.com/strengejacke/82e8d7b869bd9f961d12b4091c145b88
 - Guide to installing LaTeX with previews and autocomplete for VSCode: https://blog.jakelee.co.uk/getting-latex-working-in-vscode-on-windows/
     - I followed this process as described, except I installed the [MiKTeX](https://miktex.org/) distribution instead of the TeX Live distribution. I found the installation process to be easier, and MiKTeX can do "on the fly" package installation.
-    - When you first attempt to compile a .tex file into a PDF, MiKTeX will prompt you to install `latexmk`. Do so. This package requires an installation of Perl, which typically does not come installed with Windows. You can download and install [Strawberry Perl](https://strawberryperl.com/) to fix this. See [the latexmk documentation](https://mg.readthedocs.io/latexmk.html) for more information.
+    - When you first attempt to compile a .tex file into a PDF, MiKTeX will prompt you to install `latexmk`. Do so. This package requires an installation of Perl, which may not be installed on your machine. See [the latexmk documentation](https://mg.readthedocs.io/latexmk.html) for information on how to fix this.
 
 ## Why Use VS Code?
 RStudio is also great (and it has an easier learning curve). I am switching my workflow to VS Code for the following reasons:
