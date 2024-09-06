@@ -46,6 +46,14 @@ When a new user opens this project, renv will automatically bootstrap itself, do
 - `renv::install()` installs packages much like `install.packages()`, but can also install packages from GitHub, Bioconductor, and more.
 - `renv::update()` gets the latest version of all dependencies.
 
+### Other Files
+- `.Rprofile` is used by the `renv` package.
+- `.gitignore` tells git which files to exclude from tracking (for example, the `data` folder).
+- `.lintr` sets rules for [lintr](https://lintr.r-lib.org/), which provides diagnostics for code in R. I have set this up to exclude many trivial warnings such as trailing blank lines.
+- `LICENSE.txt` is an example license, adapted from the [replication package](https://www.openicpsr.org/openicpsr/project/136761/version/V1/view) for "Disability Insurance in the Great Recession: Ease of Access, Program Enrollment, and Local Hysteresis" by Kearney et al. It is also the license recommended by the [AEA](https://www.aeaweb.org/journals/data/faq#lic).
+- `README.md` is this file.
+- `renv.lock` is the lockfile used by the `renv` package (described above).
+
 ## Setting Up VS Code for R
 - VS Code's Documentation, very helpful: https://code.visualstudio.com/docs/languages/r
 - Documentation for the R Editor Extension: https://github.com/REditorSupport/vscode-R
