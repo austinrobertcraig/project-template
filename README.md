@@ -57,6 +57,8 @@ When a new user opens this project, renv will automatically bootstrap itself, do
 
 ## Setting Up VS Code for R
 
+If you are happy with your current tools and workflow, feel free to just use the file structure and resources described above to improve the organization of your projects. The instructions below are intended to help those interested in setting up a portable, reproducible R environment in VS Code from which you can edit code, generate outputs, and write documents in LaTeX all from within the same program. In the process, you will also set up Git and GitHub as a version control system.
+
 ### Step-by-step installation instructions
 1. Install [VS Code](https://code.visualstudio.com/Download)
 
