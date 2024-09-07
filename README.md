@@ -1,4 +1,4 @@
-# Project Template
+# Applied Economics Project Template
 
 The objective of this template is to provide a clean and organized environment from which to start up projects in applied economics. I have designed this template with the intention of using R within VS Code, though it can be easily adapted to other environments and languages.
 
