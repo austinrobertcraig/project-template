@@ -2,13 +2,14 @@
 
 The objective of this template is to provide a clean and organized environment from which to start up projects in applied economics. I have designed this template with the intention of using R within VS Code, though it can be easily adapted to other environments and languages.
 
-For general advice on data science workflow, see the following pages:
+For general advice on data science workflow and coding for economics, see the following pages:
 
-- Brendan M. Price's Resources for PhD Students: https://www.brendanmichaelprice.com/resources/grad/
-- Jenny Bryan's article on project-oriented workflow (with a useful explainer of the `here` package): https://www.tidyverse.org/blog/2017/12/workflow-vs-script/
-- *Git: A Guide for Economists* by Frank Pinter: https://www.frankpinter.com/notes/git-for-economists-presentation.pdf
-- Arthur Turrell's *Coding for Economists*: https://aeturrell.github.io/coding-for-economists/intro.html
-- *Introduction to Econometrics with R* by Hanck, Arnold, Gerber, and Schmelzer: https://www.econometrics-with-r.org/
+- Brendan M. Price's [Resources for PhD Students](https://www.brendanmichaelprice.com/resources/grad/)
+- Jenny Bryan's post on [project-oriented workflow](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/) (with a useful explainer of the `here` package)
+- [*Git: A Guide for Economists*](https://www.frankpinter.com/notes/git-for-economists-presentation.pdf) by Frank Pinter
+- Arthur Turrell's [*Coding for Economists*](https://aeturrell.github.io/coding-for-economists/intro.html)
+- [*Introduction to Econometrics with R*](https://www.econometrics-with-r.org/) by Hanck, Arnold, Gerber, and Schmelzer
+- Development Impact's massive [list of technical postings](https://blogs.worldbank.org/en/impactevaluations/curated-list-our-postings-technical-topics-your-one-stop-shop-methodology-0)
 
 ## File Structure
 Credit for the general structure of this project goes to [Brendan M. Price](https://www.brendanmichaelprice.com/workflow/).
@@ -100,10 +101,10 @@ Hello I am just a small document.
 9. Done! See the resources below for more information on this process and additional tools you may be interested in installing.
 
 ### Helpful Resources
-- VS Code's Documentation: https://code.visualstudio.com/docs/languages/r
-- Documentation for the R Editor Extension: https://github.com/REditorSupport/vscode-R
-- See Daniel Lüdecke's articles for recommended extensions, keybindings, and other tips: https://gist.github.com/strengejacke/82e8d7b869bd9f961d12b4091c145b88
-- Detailed guide to installing LaTeX with previews and autocomplete for VSCode: https://blog.jakelee.co.uk/getting-latex-working-in-vscode-on-windows/
+- [VS Code's Documentation](https://code.visualstudio.com/docs/languages/r)
+- Documentation for the [R Editor Extension](https://github.com/REditorSupport/vscode-R)
+- Daniel Lüdecke's [articles](https://gist.github.com/strengejacke/82e8d7b869bd9f961d12b4091c145b88) for recommended extensions, keybindings, and other tips
+- Jake Lee's [detailed guide](https://blog.jakelee.co.uk/getting-latex-working-in-vscode-on-windows/) to installing LaTeX with previews and autocomplete for VSCode
     - I followed this process as described, except I installed the [MiKTeX](https://miktex.org/) distribution instead of the TeX Live distribution. I found the installation process to be easier, and MiKTeX can do "on the fly" package installation.
 
 ## Why Use VS Code?
