@@ -14,6 +14,13 @@ For general advice on data science workflow and coding for economics, see the fo
 ## File Structure
 Credit for the general structure of this project goes to [Brendan M. Price](https://www.brendanmichaelprice.com/workflow/).
 
+The objective of this project organization is as follows:
+- Each project should have its own directory (hence, this template). It should be as self-contained as possible.
+- Files are separated by function.
+- The entire project can be executed in one click from a `main` file. Subscripts handle discrete tasks.
+- Easy to reproduce results, work across devices, share with collaborators, and submit to journals.
+
+
 Note: the `.gitkeep` files are placeholders used to maintain the file structure within GitHub. Feel free to delete them once you have real files in their folders.
 
 ### Code
