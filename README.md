@@ -91,7 +91,8 @@ If you are happy with your current tools and workflow, feel free to just use the
 - Note: I recommend **not** cloning a Git repo into a synchronized folder like Dropbox or OneDrive, as this is known to [cause some issues](https://stackoverflow.com/questions/19305033/why-is-putting-git-repositories-inside-of-a-dropbox-folder-not-recommended).
 
 8. Set up LaTeX in VS Code
-- Download and install the [MiKTeX](https://miktex.org/) distribution to your machine.
+- **Windows:** Download and install the [MiKTeX](https://miktex.org/) distribution to your machine.
+- **Mac:** Download and install the [MacTeX](https://www.tug.org/mactex/mainpage2024.html) distribution.
 - In the VS Code extensions tab, search for and install "LaTeX Workshop" and "LTeX - LanguageTool". VS Code will probably prompt you to reload your extensions - if not, close and reopen it yourself.
 - Create a new `.tex` file in VS Code (probably in the `paper` subdirectory, which is already set up with a `.gitignore` file to handle LaTeX output). Add some basic LaTeX code:
 
@@ -101,9 +102,9 @@ If you are happy with your current tools and workflow, feel free to just use the
 Hello I am just a small document.
 \end{document}
 ```
-- Click the green "run" arrow in the top right of your `.tex` file. This should begin building the PDF, and now MiKTeX should prompt you to install the `latexmk` package. Do so.
+- Click the green "run" arrow in the top right of your `.tex` file. This should begin building the PDF. If MiKTeX prompts you to install the `latexmk` package, do so.
 - Try to compile the PDF again. If it still fails, it is likely because you do not have Perl installed on your machine, which is a requirement for `latexmk`. See [the latexmk documentation](https://mg.readthedocs.io/latexmk.html) for information on how to fix this.
-- Once your PDF compiles for the first time, you should be able to use the preview tool as well.
+- Once your PDF compiles for the first time, you should be able to use the preview tool as well (the double-paned icon with the small magnifying glass).
 
 9. Done! See the resources below for more information on this process and additional tools you may be interested in installing.
 
