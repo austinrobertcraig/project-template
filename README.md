@@ -10,9 +10,10 @@ For general advice on data science workflow and coding for economics, see the fo
 - Arthur Turrell's [*Coding for Economists*](https://aeturrell.github.io/coding-for-economists/intro.html)
 - [*Introduction to Econometrics with R*](https://www.econometrics-with-r.org/) by Hanck, Arnold, Gerber, and Schmelzer
 - Development Impact's massive [list of technical postings](https://blogs.worldbank.org/en/impactevaluations/curated-list-our-postings-technical-topics-your-one-stop-shop-methodology-0)
-- [An Introduction to Machine Learning with R](https://lgatto.github.io/IntroMachineLearningWithR/index.html) by Luarent Gatto.
+- [An Introduction to Machine Learning with R](https://lgatto.github.io/IntroMachineLearningWithR/index.html) by Luarent Gatto
 - [R For Data Science 2e](https://r4ds.hadley.nz/)
     - Related: [tidymodels](https://www.tidymodels.org/) for machine learning in the tidyverse.
+- [The R Graph Gallery](https://r-graph-gallery.com/), including a section on [background maps](https://r-graph-gallery.com/map.html)
 
 ## File Structure
 Credit for the general structure of this project goes to [Brendan M. Price](https://www.brendanmichaelprice.com/workflow/).
