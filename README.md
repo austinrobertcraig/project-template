@@ -97,7 +97,7 @@ If you are happy with your current tools and workflow, feel free to just use the
 8. Set up LaTeX in VS Code
 - **Windows:** Download and install the [MiKTeX](https://miktex.org/) distribution to your machine.
 - **Mac:** Download and install the [MacTeX](https://www.tug.org/mactex/mainpage2024.html) distribution.
-- In the VS Code extensions tab, search for and install "LaTeX Workshop" and "LTeX - LanguageTool". VS Code will probably prompt you to reload your extensions - if not, close and reopen it yourself.
+- In the VS Code extensions tab, search for and install "LaTeX Workshop" and ["LTeX+"](https://marketplace.visualstudio.com/items?itemName=ltex-plus.vscode-ltex-plus). VS Code will probably prompt you to reload your extensions - if not, close and reopen it yourself.
 - Create a new `.tex` file in VS Code (probably in the `paper` subdirectory, which is already set up with a `.gitignore` file to handle LaTeX output). Add some basic LaTeX code:
 
 ```
